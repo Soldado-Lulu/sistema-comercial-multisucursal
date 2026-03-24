@@ -1,0 +1,3 @@
+from app.models.role import Role # noqa
+from app.models.user import User # noqa
+from app.models.product import Product # noqa
