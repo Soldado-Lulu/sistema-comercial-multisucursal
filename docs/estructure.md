@@ -24,3 +24,11 @@ sistema-comercial-multisucursal/
 ├── FrontEnd/
 ├── docs/
 └── README.md
+
+
+
+docs: agrega documentación inicial del proyecto
+feat: crea estructura base del backend
+feat: inicializa frontend con react
+fix: corrige validación de login
+refactor: reorganiza módulos de inventario
