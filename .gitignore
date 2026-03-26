@@ -1,33 +1,64 @@
-# Node / React
+# ==============================
+# 🐍 Python / FastAPI
+# ==============================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing / typing
+.pytest_cache/
+mypy_cache/
+
+# ==============================
+# 🌱 Environment variables
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# ⚛️ Frontend (Next.js / React)
+# ==============================
 node_modules/
+.next/
+out/
 dist/
 build/
 coverage/
 .vite/
 
-# Python / FastAPI
-__pycache__/
-*.py[cod]
-*.sqlite3
-.venv/
-venv/
-env/
-ENV/
-.pytest_cache/
-mypy_cache/
-
-# Environment
-.env
-.env.*
-!.env.example
-
-# IDE
+# ==============================
+# 🧠 IDEs / Editors
+# ==============================
 .vscode/
 .idea/
 
-# OS
+# ==============================
+# 🖥️ OS
+# ==============================
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# ==============================
+# 🐳 Docker (si usas luego)
+# ==============================
+*.pid
+*.seed
+*.pid.lock
+
+# ==============================
+# 🧪 Alembic / Migraciones
+# ==============================
+alembic/versions/__pycache__/
+
+# ==============================
+# 📦 Otros
+# ==============================
+*.lock
