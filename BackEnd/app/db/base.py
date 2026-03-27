@@ -1,5 +1,7 @@
 from app.db.base_class import Base  # noqa
-
+import app.models # noqa
+"""
+    
 from app.models.company import Company  # noqa
 from app.models.branch import Branch  # noqa
 from app.models.role import Role  # noqa
@@ -14,3 +16,4 @@ from app.models.inventory import Inventory  # noqa
 from app.models.inventory_movement import InventoryMovement  # noqa
 from app.models.sale import Sale  # noqa
 from app.models.sale_detail import SaleDetail  # noqa
+"""
